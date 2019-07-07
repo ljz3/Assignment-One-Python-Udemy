@@ -19,8 +19,9 @@ def print_info():
     global age
     print(name + " " + age)
 
-#def print_any():
- #   print("Hello" + 1)
+def print_any():
+    int = 5
+    print("Hello " + str(int))
 
 
 
@@ -30,5 +31,5 @@ def age_decade_calc():
     print(int(decade))
 
 print_info()
-#print_any()
+print_any()
 age_decade_calc()
